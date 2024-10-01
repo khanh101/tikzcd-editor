@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+/home/khanh/ws/miniforge3/bin/mamba env export | grep -v "^prefix: " > environment.yml
